@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Arquitectura de computadoras</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Kanit&family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+</head>
+<body>
+<header id="header" style="display: none">
+    <div class="hleft" id="tabss">
+        <ul class="temas">
+            <li id="1" class="nav inactive" onclick="switchPage(1)">Unidad 1</li>
+            <li id="2" class="nav inactive" onclick="switchPage(2)">Unidad 2</li>
+        </ul>
+    </div>
+    <div class="hmid">
+        <h2 id="mainPage">Arquitectura de computadoras</h2>
+    </div>
+    <div class="hright">
+        <ul class="temas">
+            <li id="3" class="nav inactive" onclick="switchPage(3)">Unidad 3</li>
+            <li id="4" class="nav inactive" onclick="switchPage(4)">Unidad 4</li>
+            <li id="5" class="nav inactive" onclick="switchPage(5)">Practicas</li>
+        </ul>
+    </div>
+</header>
+
+<main id="main" style="display: none">
+    <div class="mainContent">
+        <div class="title">
+            <span id="writeTitle">
+                Bienvenido seas a
+            </span>
+        </div>
+        <div id="accordion" class="active">
+            <h3><span id="changeArqui">Hazme click para comenzar :)</span></h3>
+            <p id="historiaCompu">La historia de la arquitectura de computadoras comienza en la década de 1930, cuando el matemático británico Alan Turing propuso la idea de una "máquina universal" capaz de realizar cualquier cálculo matemático. <br>Durante la Segunda Guerra Mundial, Turing y otros científicos trabajaron en la construcción de una máquina de este tipo para decodificar mensajes secretos alemanes.
+                <br>
+                <img src="media/imgs/Turing.jpg" alt="" class="mainContentImg" id="turing"><small>Alan turing</small> <br>
+                En 1945, el científico estadounidense John von Neumann propuso una arquitectura de computadora que se convertiría en el modelo para la mayoría de las computadoras modernas. En la arquitectura de von Neumann, los programas y los datos se almacenan juntos en la memoria principal, lo que permite que la CPU acceda a ellos de manera rápida y eficiente.
+                <img src="media/imgs/DrawNeumann1.webp" class="mainContentImg" id="vonNeumanArq">
+                En la década de 1950, las computadoras eran grandes, costosas y utilizadas principalmente por el gobierno y grandes corporaciones. Sin embargo, a medida que la tecnología mejoró, las computadoras se volvieron más pequeñas, más baratas y más accesibles para el público en general.<br>
+                En la década de 1970, la introducción de los microprocesadores permitió la creación de computadoras personales, lo que llevó a una explosión en la demanda de computadoras y el crecimiento de la industria de la tecnología de la información.
+                En la década de 1980, el desarrollo de las redes de computadoras permitió que las computadoras se conectaran entre sí, lo que llevó al surgimiento de Internet y la creación de la World Wide Web en la década de 1990.<br>
+                Desde entonces, la arquitectura de computadoras ha evolucionado para adaptarse a las necesidades cambiantes de la sociedad. Los avances en la tecnología de la información han llevado a la creación de dispositivos móviles, la computación en la nube y la inteligencia artificial, y se espera que la arquitectura de computadoras continúe evolucionando a medida que la tecnología avanza.
+            </p>
+        </div>
+
+        <div class="hide" id="unidad1">
+
+        </div>
+
+        <div class="hide" id="unidad2">
+
+        </div>
+
+        <div class="hide" id="unidad3">
+            <p><span class="temario">Not being developed yet</span></p>
+        </div>
+
+        <div class="hide" id="unidad4">
+            <p><span class="temario">Not being developed yet</span></p>
+        </div>
+
+        <div class="hide" id="pdfs">
+            <p class="temario"><span id="practicas">&nbsp;</span></p>
+            <ul class="mainIndex" id="tabPdfs">
+                <li class="pdfInactive" data-tab="1" data-active="false">Practica 1</li>
+                <li class="pdfInactive" data-tab="2" data-active="false">Practica 2</li>
+                <li class="pdfInactive" data-tab="3" data-active="false">Practica 3</li>
+                <li class="pdfInactive" data-tab="4" data-active="false">Gamas de equipo de computo</li>
+                <li class="pdfInactive" data-tab="5" data-active="false">Cotizacion de equipos</li>
+            </ul>
+        </div>
+    </div>
+</main>
+<div id="particles-js">
+</div>
+<footer id="footerContent">
+
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
+<script src="js/typed.js"></script>
+<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js" integrity="sha256-xLD7nhI62fcsEZK2/v8LsBcb4lG7dgULkuXoXB/j91c=" crossorigin="anonymous"></script>
+<script src="js/loadPageContent.js"></script>
+<script src="js/particles.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

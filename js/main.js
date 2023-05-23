@@ -1,8 +1,7 @@
-
 $(document).ready(function (){
     $("#header").fadeIn("slow");
     $("#main").fadeIn("slow")
-    $(document.body).css('background','url("../media/imgs/wallpaper.jpg")')
+    $(document.body).css('background','url("media/imgs/wallpaper.jpg")')
     var typed = new Typed('#writeTitle', {
         strings: ['Bienvenido seas a', 'Arquitectura de computadoras'],
         typeSpeed: 60,
@@ -19,7 +18,7 @@ $(document).ready(function (){
     </div>
     <div class="mid">
         <p class="footerP">Page developed by: Leo Mtz</p><br>
-        <img src="../media/imgs/magpie.jpg" alt="" class="mainContentImg" id="magpie">
+        <img src="media/imgs/magpie.jpg" alt="" class="mainContentImg" id="magpie">
     </div>
     <div class="right">
         adios

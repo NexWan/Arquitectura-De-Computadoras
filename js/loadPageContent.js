@@ -24,17 +24,17 @@ $("#unidad1").html(
                                 <dt>Arquitectura de von Neumann</dt>
                                 <dd>
                                     desarrollada por John von Neumann en la década de 1940, es el modelo más utilizado en la actualidad. Se caracteriza por tener una memoria que almacena tanto datos como instrucciones, y una unidad central de procesamiento (CPU) que ejecuta las instrucciones almacenadas en la memoria.<br>
-                                    <img src="../media/imgs/Arquitecturaneumann.jpg" alt="" class="contentImgs">
+                                    <img src="/media/imgs/Arquitecturaneumann.jpg" alt="" class="contentImgs">
                                 </dd>
                                 <dt>Arquitectura Harvard</dt>
                                 <dd>
                                     desarrollada en la década de 1930, separa la memoria en dos bloques distintos para almacenar datos y programas, lo que permite un acceso más rápido a los datos. Sin embargo, es menos flexible que la arquitectura de von Neumann.
-                                    <img src="../media/imgs/image001.webp" alt="" class="contentImgs">
+                                    <img src="/media/imgs/image001.webp" alt="" class="contentImgs">
                                 </dd>
                                 <dt>Arquitectura RISC</dt>
                                 <dd>
                                     se desarrolló en la década de 1980 para mejorar el rendimiento de las CPU. Se caracteriza por tener un conjunto reducido de instrucciones simples, lo que aumenta la velocidad de ejecución de las instrucciones y reduce la complejidad del diseño de la CPU.
-                                    <img src="../media/imgs/ARQUITECTURA-DE-PROCESADOR-SOC-TIPO-RISC-TOMADO-DE-1.png" alt="" class="contentImgs">
+                                    <img src="/media/imgs/ARQUITECTURA-DE-PROCESADOR-SOC-TIPO-RISC-TOMADO-DE-1.png" alt="" class="contentImgs">
                                 </dd>
                             </dl>
                         </div>
@@ -44,15 +44,15 @@ $("#unidad1").html(
                             <dl>
                                 <dt>Arquitectura pipelining</dt>
                                 <dd> es una técnica que divide el proceso de ejecución de instrucciones en una serie de etapas o segmentos, de tal forma que cada etapa puede trabajar en una instrucción diferente al mismo tiempo. Esto mejora el rendimiento de la CPU al permitir la ejecución simultánea de varias instrucciones.
-                                    <img src="../media/imgs/1200px-Pipeline,_4_stage_with_bubble.svg.png" alt="" class="contentImgs">
+                                    <img src="/media/imgs/1200px-Pipeline,_4_stage_with_bubble.svg.png" alt="" class="contentImgs">
                                 </dd>
                                 <dt>Arquitectura superescalar</dt>
                                 <dd>es una técnica que permite que una CPU ejecute múltiples instrucciones al mismo tiempo, en lugar de esperar a que se complete una antes de empezar con la siguiente. Esto se logra mediante la inclusión de múltiples unidades funcionales dentro de la CPU, cada una de las cuales puede ejecutar una instrucción diferente.
-                                    <img src="../media/imgs/superescalar.png" alt="" class="contentImgs">
+                                    <img src="/media/imgs/superescalar.png" alt="" class="contentImgs">
                                 </dd>
                                 <dt>Arquitectura VLIW</dt>
                                 <dd>es una técnica que permite que una CPU ejecute múltiples instrucciones en paralelo, agrupando varias instrucciones en una sola palabra de instrucción. Cada palabra de instrucción contiene varias instrucciones que se ejecutan simultáneamente en unidades funcionales separadas dentro de la CPU.
-                                    <img src="../media/imgs/vliw.png" alt="" class="contentImgs">
+                                    <img src="/media/imgs/vliw.png" alt="" class="contentImgs">
                                 </dd>
                             </dl>
                         </div>
@@ -61,19 +61,19 @@ $("#unidad1").html(
                             <dl>
                                 <dt>Simetrica multiprocesador (SMP)</dt>
                                 <dd>es una arquitectura en la que dos o más procesadores idénticos comparten la misma memoria y dispositivos de entrada/salida. En un sistema SMP, cada procesador puede ejecutar cualquier tarea disponible en el sistema.
-                                    <img src="../media/imgs/smpo.gif" alt="" class="contentImgs">
+                                    <img src="/media/imgs/smpo.gif" alt="" class="contentImgs">
                                 </dd>
                                 <dt>Asimetrica Multiprocesador</dt>
                                 <dd>en un sistema ASMP, los procesadores tienen diferentes funciones y responsabilidades. Por ejemplo, puede haber un procesador dedicado a la gestión del sistema operativo, mientras que otros procesadores se encargan de tareas específicas.
-                                    <img src="../media/imgs/asimetrico.jpg" alt="" class="contentImgs">
+                                    <img src="/media/imgs/asimetrico.jpg" alt="" class="contentImgs">
                                 </dd>
                                 <dt>Multiprocesador no uniforma (NUMA)</dt>
                                 <dd>en un sistema NUMA, los procesadores tienen acceso a diferentes bancos de memoria y a diferentes dispositivos de entrada/salida. Esta arquitectura se utiliza en sistemas de alta escalabilidad para mejorar el rendimiento y reducir la latencia de la memoria.
-                                    <img src="../media/imgs/numa.webp" alt="" class="contentImgs">
+                                    <img src="/media/imgs/numa.webp" alt="" class="contentImgs">
                                 </dd>
                                 <dt>Cluster de computadoras</dt>
                                 <dd> es una arquitectura de multiprocesador distribuida, en la que un grupo de computadoras independientes se conectan a través de una red de alta velocidad para trabajar en tareas comunes. Cada computadora en el cluster puede tener su propio sistema operativo y recursos de hardware dedicados.
-                                    <img src="../media/imgs/cluster.jpg" alt="" class="contentImgs">
+                                    <img src="/media/imgs/cluster.jpg" alt="" class="contentImgs">
                                 </dd>
                             </dl>
                         </div>
@@ -106,27 +106,27 @@ $("#unidad1").html(
                                             <ul class="listContent">
                                                 <li><b class="content">Arquitectura CISC: </b>
                                                     <p class="content">esta arquitectura utiliza un conjunto complejo de instrucciones, que pueden realizar varias operaciones a la vez, lo que la hace eficiente en la ejecución de programas complejos. Las CPUs con esta arquitectura suelen tener una alta densidad de transistores y altas velocidades de reloj.</p>
-                                                     <img src="../media/imgs/cisc.png" alt="" class="contentImgs">   
+                                                     <img src="/media/imgs/cisc.png" alt="" class="contentImgs">   
                                                 </li>
                                                 <li>
                                                     <b class="content">Arquitectura RISC</b>
                                                     <p class="content">esta arquitectura utiliza un conjunto reducido de instrucciones simples, lo que la hace más eficiente en la ejecución de tareas sencillas y repetitivas. Las CPUs con esta arquitectura suelen tener menor densidad de transistores y menor consumo energético, pero una velocidad de reloj más alta.</p>
-                                                    <img src="../media/imgs/risc.jpg" alt="" class="contentImgs">
+                                                    <img src="/media/imgs/risc.jpg" alt="" class="contentImgs">
                                                 </li>
                                                 <li>
                                                     <b class="content">Arquitectura VLIW</b>
                                                     <p class="content">esta arquitectura combina múltiples instrucciones en una única palabra de instrucción, lo que permite una ejecución más rápida de operaciones paralelas y una mayor eficiencia de los recursos de la CPU.</p>
-                                                    <img src="../media/imgs/vliw.png" alt="" class="contentImgs">
+                                                    <img src="/media/imgs/vliw.png" alt="" class="contentImgs">
                                                 </li>
                                                 <li>
                                                     <b class="content">Arquitectura SIMD</b>
                                                     <p class="content">esta arquitectura utiliza una única instrucción para procesar múltiples datos al mismo tiempo, lo que la hace eficiente en aplicaciones de procesamiento de imágenes y video.</p>
-                                                    <img src="../media/imgs/simd.png" alt="" class="contentImgs">
+                                                    <img src="/media/imgs/simd.png" alt="" class="contentImgs">
                                                 </li>
                                                 <li>
                                                     <b class="content">Arquitectura MIMD</b>
                                                     <p class="content">esta arquitectura permite la ejecución de múltiples instrucciones en múltiples conjuntos de datos, lo que la hace eficiente en aplicaciones de procesamiento en paralelo, como la computación distribuida y la supercomputación.</p>
-                                                    <img src="../media/imgs/MIMD.svg.png" alt="" class="contentImgs">
+                                                    <img src="/media/imgs/MIMD.svg.png" alt="" class="contentImgs">
                                                 </li>
                                             </ul>
                                         </dd>
@@ -140,21 +140,21 @@ $("#unidad1").html(
                                                 <li>
                                                     <b>CPU de un solo nucleo:</b>
                                                     <p>es un procesador que contiene un solo núcleo y es capaz de procesar una instrucción a la vez. Es el tipo de CPU más común en las computadoras personales y portátiles.</p>
-                                                    <img src="../media/imgs/mononucleo.webp" alt="" class="contentImgs">
+                                                    <img src="/media/imgs/mononucleo.webp" alt="" class="contentImgs">
                                                 </li>
                                                 <li>
                                                     <b>CPU multinucleo:</b>
                                                     <p>es un procesador que contiene dos o más núcleos, lo que permite procesar varias instrucciones simultáneamente. Los procesadores de cuatro núcleos son los más comunes en la actualidad, aunque también existen procesadores de seis, ocho y hasta dieciséis núcleos.</p>
-                                                    <img src="../media/imgs/multinucleo.webp" alt="" class="contentImgs">
+                                                    <img src="/media/imgs/multinucleo.webp" alt="" class="contentImgs">
                                                 </li>
                                                 <li>
                                                     <b>CPU arquitectura ARM:</b>
                                                     <p>es una arquitectura RISC diseñada específicamente para dispositivos móviles y sistemas embebidos. Los procesadores ARM tienen una alta eficiencia energética y se utilizan en smartphones, tablets y otros dispositivos portátiles.</p>
-                                                    <img src="../media/imgs/arm.webp" alt="" class="contentImgs">
+                                                    <img src="/media/imgs/arm.webp" alt="" class="contentImgs">
                                                 </li>
                                                 <li><b>CPU arquitectura x86</b>
                                                     <p> es una arquitectura CISC utilizada en las computadoras personales y portátiles con procesadores de Intel y AMD. Los procesadores x86 son capaces de ejecutar una amplia variedad de programas y sistemas operativos.</p>
-                                                    <img src="../media/imgs/x86.jpg" alt="" class="contentImgs">
+                                                    <img src="/media/imgs/x86.jpg" alt="" class="contentImgs">
                                                 </li>
                                             </ul>
                                         </dd>
@@ -236,7 +236,7 @@ $("#unidad1").html(
                                         La memoria principal semiconductora se divide en dos tipos principales: memoria estática (SRAM) y memoria dinámica (DRAM). La SRAM es más rápida y cara, y se utiliza principalmente en cachés de nivel 1 y 2. La DRAM es más lenta y económica, y se utiliza en la memoria principal de la mayoría de las computadoras.
                                         La memoria principal semiconductora es volátil, lo que significa que los datos almacenados en ella se pierden cuando se apaga la computadora o se pierde la alimentación eléctrica. Por lo tanto, se requiere de una fuente de energía constante para mantener los datos en la memoria.
                                         La memoria principal semiconductora es una parte crítica del sistema de una computadora, ya que afecta directamente el rendimiento. Cuanta más memoria RAM tenga una computadora, más programas podrá ejecutar al mismo tiempo y más rápido podrá trabajar con ellos. Sin embargo, si una computadora tiene demasiados programas abiertos o si los programas utilizan mucha memoria, la memoria RAM puede llenarse y hacer que el sistema se vuelva lento o incluso se bloquee. Por lo tanto, es importante tener suficiente memoria RAM para las necesidades de cada usuario.</p>
-                                        <img src="../media/imgs/ram.jpg" alt="" class="contentImgs">
+                                        <img src="/media/imgs/ram.jpg" alt="" class="contentImgs">
                                 </div>
                                 <div id="memoriaCache" class="content">
                                     <h3>Memoria cache</h3>
@@ -245,7 +245,7 @@ $("#unidad1").html(
                                         Cuando la CPU necesita acceder a los datos almacenados en la memoria principal, primero busca en la memoria caché para ver si los datos ya se encuentran allí. Si los datos están en la memoria caché, la CPU puede acceder a ellos más rápido que si tuviera que buscarlos en la memoria principal. Si los datos no están en la memoria caché, se buscan en la memoria principal y se copian a la memoria caché para un acceso más rápido en el futuro.
                                         La memoria caché es una parte importante del rendimiento de una computadora moderna, ya que permite una mayor eficiencia en la realización de tareas y una reducción en el tiempo de espera. La cantidad y velocidad de la memoria caché varía según el tipo de procesador y la computadora.
                                     </p>
-                                    <img src="../media/imgs/cache.jpg" alt="" class="contentImgs">
+                                    <img src="/media/imgs/cache.jpg" alt="" class="contentImgs">
                                 </div>
                             </div>
                         </div>
@@ -317,11 +317,11 @@ $("#unidad1").html(
                                     </ul>
                                     <div class="doubleImg">
                                         <div class="imgWithText">
-                                            <img src="../media/imgs/busFisico.jpg" alt="" class="contentImgs">
+                                            <img src="/media/imgs/busFisico.jpg" alt="" class="contentImgs">
                                             <p class="content">Cable de bus</p>
                                         </div>
                                         <div class="imgWithText">
-                                            <img src="../media/imgs/busIntegrado.jpg" alt="" class="contentImgs">
+                                            <img src="/media/imgs/busIntegrado.jpg" alt="" class="contentImgs">
                                             <p class="content">Bus en una tarjeta madre</p>
                                         </div>
                                     </div>
@@ -381,7 +381,7 @@ $("#unidad2").html(
                         En cuanto a la arquitectura de computadoras, existen varias arquitecturas de procesador comunes, incluyendo la arquitectura de conjunto de instrucciones reducido (RISC), la arquitectura de conjunto de instrucciones complejas (CISC) y la arquitectura de procesador superescalar. La arquitectura RISC se enfoca en la simplicidad y la eficiencia en la ejecución de instrucciones, mientras que la arquitectura CISC se enfoca en la facilidad de programación. La arquitectura superescalar permite que el procesador pueda ejecutar múltiples instrucciones simultáneamente y mejorar el rendimiento del sistema.
                     </p>
                     <div class="imgWithText">
-                        <img src="../media/imgs/organizacionCpu.png" alt="" class="contentImgs">
+                        <img src="/media/imgs/organizacionCpu.png" alt="" class="contentImgs">
                         <p class="content">Diagrama de la organizacion de un cpu</p>
                     </div>
                 </div>
@@ -416,10 +416,10 @@ $("#unidad2").html(
                                 <li><b>El registro de puntero de pila (SP):</b> apunta a la posición actual de la pila.</li>
                             </ul>
                             <div class="doubleImg">
-                                <div class="imgWithText"><img src="../media/imgs/flags.jpg" alt="" class="contentImgs"><p class="content">Registro FLAGS</p></div>
-                                <div class="imgWithText"><img src="../media/imgs/psw.png" alt="" class="contentImgs"><p class="content">Registro PSW</p></div>
-                                <div class="imgWithText"><img src="../media/imgs/controladorPrograma.png" alt="" class="contentImgs"><p class="content">Registro PC</p></div>
-                                <div class="imgWithText"><img src="../media/imgs/pila.png" alt="" class="contentImgs"><p class="content">Registro SP</p></div>
+                                <div class="imgWithText"><img src="/media/imgs/flags.jpg" alt="" class="contentImgs"><p class="content">Registro FLAGS</p></div>
+                                <div class="imgWithText"><img src="/media/imgs/psw.png" alt="" class="contentImgs"><p class="content">Registro PSW</p></div>
+                                <div class="imgWithText"><img src="/media/imgs/controladorPrograma.png" alt="" class="contentImgs"><p class="content">Registro PC</p></div>
+                                <div class="imgWithText"><img src="/media/imgs/pila.png" alt="" class="contentImgs"><p class="content">Registro SP</p></div>
                             </div>
                         </div>
                         <div id="ejempreg">
@@ -452,7 +452,7 @@ $("#unidad2").html(
                             <p class="content">
                                 El ciclo fetch-decode-execute es un proceso que describe cómo una CPU ejecuta las instrucciones almacenadas en la memoria. El proceso comienza con la etapa de "fetch", en la que la CPU busca la próxima instrucción en la memoria y la carga en un registro interno. Luego, en la etapa "decode", la CPU decodifica la instrucción y determina qué operación se debe realizar. Finalmente, en la etapa "execute", la CPU lleva a cabo la operación y actualiza los registros y la memoria según sea necesario. Este ciclo se repite continuamente mientras la CPU está en funcionamiento, lo que permite la ejecución de programas y la realización de tareas complejas.
                             </p>
-                            <img src="../media/imgs/fetchdecode.webp" alt="" class="contentImgs">
+                            <img src="/media/imgs/fetchdecode.webp" alt="" class="contentImgs">
                         </div>
                         <div id="segmIns">
                             <h3>Segmentacion de instrucciones</h3>
@@ -545,7 +545,7 @@ $("#unidad3").html(
                                   <li><b>Unidad Aritmético-Lógica (Arithmetic Logic Unit, ALU):</b> Realiza operaciones matemáticas y lógicas, como sumas, restas, multiplicaciones, comparaciones y operaciones booleanas. Es donde se llevan a cabo los cálculos y las operaciones básicas.</li>
                                   <li><b>Registros:</b> Son pequeñas unidades de almacenamiento de alta velocidad que almacenan datos temporales y resultados intermedios durante la ejecución de las instrucciones. Los registros son fundamentales para el rendimiento de la CPU, ya que permiten un acceso rápido a los datos necesarios para las operaciones.</li>
                                 </ul>
-                                <img src="../media/imgs/cpu.webp" alt="" class="contentImgs">
+                                <img src="/media/imgs/cpu.webp" alt="" class="contentImgs">
                                 <p class="content">
                                 La CPU interactúa con otros componentes del sistema, como la memoria RAM, los dispositivos de almacenamiento, los periféricos y otros, para realizar las tareas solicitadas por el usuario. Es responsable de la ejecución de programas, el manejo de instrucciones, la gestión de la memoria y el control de los dispositivos de entrada y salida.
                                 </p>
@@ -556,7 +556,7 @@ $("#unidad3").html(
                                 El bus del sistema es una estructura de comunicación interna que permite la transferencia de datos, direcciones y señales de control entre la CPU, la memoria y otros componentes del sistema, como tarjetas de expansión y dispositivos de almacenamiento.
                                 El controlador del bus actúa como un intermediario entre la CPU y los dispositivos conectados al bus del sistema
                                 </p>
-                                <img src="../media/imgs/controladorBus.jpg" alt="" class="contentImgs">
+                                <img src="/media/imgs/controladorBus.jpg" alt="" class="contentImgs">
                             </div>
                             <div id="puertasES">
                                 <p class="content">Las puertas de entrada/salida (I/O, por sus siglas en inglés) se refieren a los circuitos electrónicos que permiten la comunicación y transferencia de datos entre un sistema informático y los dispositivos periféricos conectados a él. Estas puertas actúan como interfaz entre el sistema y el mundo exterior, permitiendo la entrada y salida de datos, así como el control de dispositivos externos.
@@ -570,7 +570,7 @@ $("#unidad3").html(
                                   <li><b>Puertos de audio y video:</b> Se utilizan para conectar altavoces, micrófonos, auriculares, monitores, televisores y otros dispositivos de audio y video. Ejemplos comunes son los puertos de audio de 3,5 mm, los puertos HDMI y los puertos DisplayPort.</li>
                                 </ul>
                                 <div class="imgWithText">
-                                    <img src="../media/imgs/entradasalida.jpg" alt="" class="contentImgs">
+                                    <img src="/media/imgs/entradasalida.jpg" alt="" class="contentImgs">
                                     <p class="content">Puertas de entrada/salida en una mb</p>
                                 </div>
                                 <p class="content">
@@ -647,7 +647,7 @@ $("#unidad3").html(
                                       <li><b>Control de configuración:</b> Los controladores de video permiten ajustar diferentes parámetros de configuración relacionados con la visualización, como la resolución de pantalla, la relación de aspecto, la calibración del color, la frecuencia de actualización, entre otros. Estos ajustes se pueden realizar a través de configuraciones de software o mediante la configuración de hardware específica del controlador.</li>
                                 </ul>
                                 <div class="imgWithText">
-                                    <img src="../media/imgs/nvidiapanel.png" alt="" class="contentImgs">
+                                    <img src="/media/imgs/nvidiapanel.png" alt="" class="contentImgs">
                                     <p class="content">Panel de control de video de Nvidia</p>
                                 </div>
                             </div>
@@ -683,8 +683,8 @@ $("#unidad3").html(
                                     La memoria flash es otro tipo de dispositivo de almacenamiento utilizado en una variedad de aplicaciones. Se encuentra en unidades USB, tarjetas de memoria, teléfonos móviles y otros dispositivos portátiles. La memoria flash es no volátil, lo que significa que puede retener datos incluso cuando no hay alimentación eléctrica. Es adecuada para almacenar y transportar datos de manera rápida y segura.
                                 </p>
                                 <div class="doubleImg">
-                                    <div class="imgWithText"><img src="../media/imgs/ssd.jpg" alt="" class="contentImgs"><p class="content">Disco de estado solido (SSD)</p></div>
-                                    <div class="imgWithText"><img src="../media/imgs/hdd.webp" alt="" class="contentImgs"><p class="content">Disco duro magnetico (HDD)</p></div>
+                                    <div class="imgWithText"><img src="/media/imgs/ssd.jpg" alt="" class="contentImgs"><p class="content">Disco de estado solido (SSD)</p></div>
+                                    <div class="imgWithText"><img src="/media/imgs/hdd.webp" alt="" class="contentImgs"><p class="content">Disco duro magnetico (HDD)</p></div>
                                 </div>
                             </div>
                             <div id="fuentesAlimentacion">
@@ -727,7 +727,7 @@ $("#unidad3").html(
                                         <li><b>Gestión de carga y equilibrio de carga:</b> En entornos de servicios con alta demanda, es necesario gestionar la carga de trabajo de manera eficiente para garantizar un rendimiento óptimo. La arquitectura de gestión de carga y equilibrio de carga se encarga de distribuir la carga de trabajo entre los servidores disponibles de manera equitativa, evitando la sobrecarga de recursos y asegurando un rendimiento eficiente de los servicios.</li>
                                 </ul>
                                 <div class="imgWithText">
-                                    <img src="../media/imgs/servidor.jpg" alt="" class="contentImgs">
+                                    <img src="/media/imgs/servidor.jpg" alt="" class="contentImgs">
                                     <p class="content">Servidor</p>
                                 </div>
                             </div>
@@ -744,7 +744,7 @@ $("#unidad3").html(
                                         <li><b>Seguridad y protección:</b> La seguridad es un aspecto crítico en los ambientes de servicio en la industria.</li>
                                         <li><b>Gestión y supervisión de sistemas:</b> Los ambientes de servicio en la industria requieren de herramientas de gestión y supervisión para monitorear y administrar eficientemente los sistemas y recursos.</li>
                                 </ul>
-                                <img src="../media/imgs/redes.jpg" alt="" class="contentImg">
+                                <img src="/media/imgs/redes.jpg" alt="" class="contentImg">
                             </div>
                             <div id="ecommerce">
                                 <p class="content">
@@ -758,7 +758,7 @@ $("#unidad3").html(
                                       <li><b>Gestión de contenido:</b> En un entorno de e-commerce, la gestión de contenido es crucial para administrar la información de productos, imágenes, descripciones y otras características relevantes. La arquitectura de computadoras debe incluir sistemas que permitan la creación, edición y publicación de contenido de manera eficiente.</li>
                                       <li><b>Servicios de pago y transacciones:</b> Los ambientes de servicio en e-commerce deben contar con sistemas de procesamiento de pagos seguros y confiables. Esto implica la integración de pasarelas de pago, sistemas de procesamiento de tarjetas de crédito u otros métodos de pago en línea.</li>
                                 </ul>
-                                <img src="../media/imgs/ecommerce.jpg" alt="" class="contentImgs">
+                                <img src="/media/imgs/ecommerce.jpg" alt="" class="contentImgs">
                             </div>
                         </div>
                     </div>
@@ -785,7 +785,7 @@ $("#unidad4").html(
                 <p class="content">
                 La computación paralela es un enfoque de procesamiento de datos que utiliza múltiples recursos de computación trabajando en conjunto para resolver un problema o realizar una tarea de manera más rápida y eficiente.<br>Algunos aspectos básicos de la computación paralela son:
                 </p>
-                <img src="../media/imgs/paralelo.jpg" alt="" class="contentImgs">
+                <img src="/media/imgs/paralelo.jpg" alt="" class="contentImgs">
                 <div id="aspectosBasicosIndex">
                     <ul class="index red">
                         <li><a href="#paralelismo">Paralelismo</a></li>
@@ -877,7 +877,7 @@ $("#unidad4").html(
                         Sin embargo, los sistemas SMP también tienen desafíos. A medida que se agrega más procesadores, puede haber problemas de latencia y congestión en la memoria compartida, lo que puede afectar el rendimiento global del sistema. Además, la sincronización de acceso a memoria compartida puede introducir cuellos de botella si no se maneja adecuadamente, ya que múltiples procesadores pueden intentar acceder simultáneamente a los mismos datos.
                         Para mitigar estos desafíos, los sistemas SMP a menudo implementan técnicas de caché coherente, donde cada procesador tiene su propia caché para almacenar copias de datos utilizados con frecuencia. Estas cachés se coordinan para mantener la coherencia de los datos compartidos, asegurando que todos los procesadores vean los cambios realizados por otros procesadores en la memoria compartida.
                     </p>
-                    <img src="../media/imgs/multiprocesador.jpg" alt="" class="contentImgs">
+                    <img src="/media/imgs/multiprocesador.jpg" alt="" class="contentImgs">
                     </div>
                     <div id="redesInterconDin">
                         <p class="content">
@@ -887,7 +887,7 @@ $("#unidad4").html(
                             Esta flexibilidad y adaptabilidad de las redes de interconexión dinámica permiten optimizar el rendimiento y la eficiencia de los sistemas multiprocesador. Al ajustar la topología y la configuración de la red en función de la carga de trabajo, se pueden minimizar las latencias de comunicación, reducir los cuellos de botella y maximizar el rendimiento global del sistema.
                             Las redes de interconexión dinámica también pueden incorporar mecanismos de enrutamiento inteligente y técnicas avanzadas de conmutación para mejorar el flujo de datos y la escalabilidad. Estos mecanismos permiten seleccionar las rutas óptimas y minimizar las interferencias entre los nodos, optimizando así la comunicación entre los procesadores y evitando congestiones o bloqueos en la red.
                         </p>
-                        <img src="../media/imgs/conexionInter.png" alt="" class="bigImgs">
+                        <img src="/media/imgs/conexionInter.png" alt="" class="bigImgs">
                     </div>
                     <div id="medioCompartido">
                         <p class="content">
@@ -899,7 +899,7 @@ $("#unidad4").html(
                             <li><b>Medios inalámbricos:</b> En las redes inalámbricas, como las redes Wi-Fi, el medio compartido es el espectro de frecuencia utilizado para la transmisión de datos. Varios dispositivos comparten las mismas frecuencias para enviar y recibir señales inalámbricas. Se utilizan protocolos de acceso al medio, como CSMA/CA (Carrier Sense Multiple Access with Collision Avoidance), para evitar colisiones y administrar el acceso equitativo al medio inalámbrico.</li>
                             <li><b>Medios satelitales:</b> En las comunicaciones satelitales, múltiples usuarios comparten el mismo satélite como medio de transmisión. Los datos se transmiten desde los usuarios a través de enlaces ascendentes al satélite, y luego se retransmiten a los usuarios a través de enlaces descendentes. Los sistemas de acceso múltiple por división de tiempo (TDMA) y acceso múltiple por división de frecuencia (FDMA) se utilizan para permitir que varios usuarios compartan el mismo ancho de banda del satélite.</li>
                         </ul>
-                        <img src="../media/imgs/medioCompartido.jpg" alt="" class="bigImgs">
+                        <img src="/media/imgs/medioCompartido.jpg" alt="" class="bigImgs">
                     </div>
                     <div id="conmutadas">
                         <p class="content">
@@ -909,7 +909,7 @@ $("#unidad4").html(
                             La ventaja de los sistemas de memoria compartida conmutada es que permiten un acceso rápido y directo a la memoria compartida, lo que facilita la comunicación y la cooperación entre los nodos. Esto es especialmente útil en aplicaciones que requieren un alto grado de interacción entre los procesadores, como cálculos paralelos, simulaciones científicas, bases de datos distribuidas y sistemas de tiempo real.
                             Sin embargo, también existen desafíos en los sistemas de memoria compartida conmutada, como la gestión de la coherencia de la memoria compartida, es decir, garantizar que todos los nodos vean los mismos datos en todo momento. Esto requiere protocolos y mecanismos de sincronización adecuados para mantener la coherencia de los datos en un entorno distribuido y concurrente.
                         </p>
-                        <img src="../media/imgs/conmutada.jpg" alt="" class="bigImgs">
+                        <img src="/media/imgs/conmutada.jpg" alt="" class="bigImgs">
                     </div>
                 </div>
             </div>
@@ -927,7 +927,7 @@ $("#unidad4").html(
                             La comunicación entre los nodos se realiza a través de una red de interconexión, que puede ser tanto local como global. Esta red permite el intercambio de datos y la sincronización de actividades entre los nodos. Algunos ejemplos comunes de redes de interconexión utilizadas en multicomputadores incluyen Ethernet, InfiniBand y Myrinet.
                             Los multicomputadores son ampliamente utilizados en aplicaciones que requieren un alto rendimiento computacional, como la simulación científica, el procesamiento de datos masivos, la renderización de gráficos y la investigación en inteligencia artificial. Al aprovechar la capacidad de cómputo distribuido y paralelo de múltiples nodos, los multicomputadores pueden acelerar significativamente el tiempo de ejecución de tareas complejas al dividirlas en partes más pequeñas y procesarlas simultáneamente.
                             </p>
-                            <img src="../media/imgs/multicomputadora.png" alt="" class="bigImgs">
+                            <img src="/media/imgs/multicomputadora.png" alt="" class="bigImgs">
                     </div>
                     <div id="redesInterconEst">
                         <p class="content">
@@ -949,19 +949,19 @@ $("#unidad4").html(
                     </ul>
                     <div id="nvidia">
                         <p class="content">NVIDIA es una empresa que diseña y fabrica tarjetas gráficas, procesadores y sistemas de computación de alto rendimiento. La tecnología CUDA de NVIDIA permite la computación paralela en sus tarjetas gráficas, lo que las hace ideales para aplicaciones como la inteligencia artificial, la simulación y el procesamiento de imágenes.</p>
-                        <img src="../media/imgs/nvidiaGpu.png" alt="" class="bigImgs">
+                        <img src="/media/imgs/nvidiaGpu.png" alt="" class="bigImgs">
                     </div>
                     <div id="aws">
                         <p class="content">Amazon Web Services (AWS) es un servicio de computación en la nube que ofrece una amplia variedad de opciones de computación paralela, incluyendo Amazon EC2, que permite el uso de múltiples instancias para procesamiento paralelo de grandes conjuntos de datos.</p>
-                        <img src="../media/imgs/aws.jpg" alt="" class="bigImgs">
+                        <img src="/media/imgs/aws.jpg" alt="" class="bigImgs">
                     </div>
                     <div id="googlecloud">
                         <p class="content">Google Cloud Platform es otro servicio de computación en la nube que utiliza la computación paralela para procesar grandes cantidades de datos. Google también ha desarrollado su propio procesador de inteligencia artificial llamado TPU (Tensor Processing Unit), que utiliza la computación paralela para acelerar el entrenamiento de redes neuronales.</p>
-                        <img src="../media/imgs/google.png" alt="" class="bigImgs">
+                        <img src="/media/imgs/google.png" alt="" class="bigImgs">
                     </div>
                     <div id="ibm">
                         <p class="content">IBM ha desarrollado una variedad de productos y servicios de computación paralela, incluyendo el sistema de computación en paralelo IBM Blue Gene, que ha sido utilizado en aplicaciones científicas y de ingeniería, y el servidor de alto rendimiento IBM Power System AC922, que utiliza procesadores IBM POWER9 para ofrecer computación de alto rendimiento.</p>
-                        <img src="../media/imgs/ibm.jpg" alt="" class="bigImgs">
+                        <img src="/media/imgs/ibm.jpg" alt="" class="bigImgs">
                     </div>
                 </div>
             </div>

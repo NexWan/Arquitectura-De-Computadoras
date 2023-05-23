@@ -58,19 +58,19 @@ function changeTab(current,tab){
     neu[0].dataset.active = "true"
     switch(tab){
         case 1:
-            source = '../media/pdfs/Practica1.pdf'
+            source = 'media/pdfs/Practica1.pdf'
             break;
         case 2:
-            source = '../media/pdfs/Practica2.pdf'
+            source = 'media/pdfs/Practica2.pdf'
             break;
         case 3:
-            source = '../media/pdfs/Practica3.pdf'
+            source = 'media/pdfs/Practica3.pdf'
             break;
         case 4:
-            source = '../media/pdfs/gamas.pdf'
+            source = 'media/pdfs/gamas.pdf'
             break;
         case 5:
-            source = '../media/pdfs/cotizaciones.pdf';
+            source = 'media/pdfs/cotizaciones.pdf';
             break;
     }
     $("#pdfs").append(

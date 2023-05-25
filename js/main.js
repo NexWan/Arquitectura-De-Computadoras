@@ -124,7 +124,6 @@ async function switchPage(page) {
     switch (page) {
         case 1:
             $('#unidad1').addClass('active');
-            loadUnidad1()
             break;
         case 2:
             $("#unidad2").addClass('active')

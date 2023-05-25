@@ -63,7 +63,8 @@ ul.temas{
     padding-bottom: 20px;
     background: white;
     border-radius: 20px;
-    transition: all .5s linear
+    transition: all .5s linear;
+    max-width: 1440px;
 }
 
 .title{
@@ -119,10 +120,6 @@ small{
     width: 300px;
     border-radius: 0;
     height: auto;
-}
-
-#mainPage{
-    cursor: pointer;
 }
 
 .is-active{
@@ -197,7 +194,7 @@ ul.indexBigger{
     font-family: 'Ubuntu', sans-serif;
 }
 
- ul.index{
+ul.index{
     width: 60%;
     margin: auto;
     border-radius: 30px;
@@ -390,7 +387,6 @@ footer{
 .footerP{
     color: white;
     font-family: 'Ubuntu', sans-serif;
-    margin-bottom: 0;
 }
 
 li.pdfActive{
@@ -403,6 +399,14 @@ li.pdfInactive{
 
 #tabPdfs{
     cursor: pointer;
+}
+
+#magpie{
+    width: 3vw;
+}
+
+#magpie:hover{
+    width: 3.5vw;
 }
 
 @media (max-width: 992px){
@@ -419,7 +423,7 @@ li.pdfInactive{
     }
 
     .hmid{
-        font-size: 20px;
+        font-size: .2rem;
         width: 30%;
     }
 
@@ -428,7 +432,7 @@ li.pdfInactive{
     }
 
     .temas{
-        font-size: 18px;
+        font-size: .8rem;
         line-height: 15vh;
         margin: 0;
         word-break: keep-all;
@@ -517,7 +521,17 @@ li.pdfInactive{
         font-size: 10px;
     }
 
-    footer{
-        height: 10vh;
+    #mainPage{
+        font-size: 1rem;
     }
+
+    #magpie{
+        width: 8vw;
+        margin-top: 0;
+    }
+
+    #magpie:hover{
+        width: 9vw;
+    }
+
 }

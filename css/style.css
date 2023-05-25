@@ -409,6 +409,10 @@ li.pdfInactive{
     width: 3.5vw;
 }
 
+#mainPage{
+    cursor: pointer;
+}
+
 @media (max-width: 992px){
     header{
         height: 10vh;

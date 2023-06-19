@@ -204,149 +204,27 @@ $(function (){
     });
 })
 
-$(function (){
-    $('#tab-tabs').tabs({
-        show:300,
+$(function() {
+    var tabIds = [
+      '#tab-tabs', '#tab-tabs2', '#tab-tab-tabs2', '#tab-memoria',
+      '#tab-ES-inner', '#tab-buses-inner', '#unidad2-tabs', '#unidad3-tabs',
+      '#tab-estructuraReg', '#tab-cicloInstruccion', '#chipsetTab',
+      '#tab-aplicaciones', '#ambientesIndex', '#unidad4-tabs',
+      '#aspectosBasicosIndex', '#tiposParaleloIndex', '#sisMemCompTab',
+      '#sisMemDistTab', '#estudioIndex', '#practicastab'
+    ];
+  
+    tabIds.forEach(function(tabId) {
+      $(tabId).tabs({
+        show: 300,
         hide: 300,
         animate: true,
         active: false,
-        collapsible: true,
-    })
-    $('#tab-tabs2').tabs({
-        show:300,
-        hide: 300,
-        animate: true,
-        active: false,
-        collapsible: true,
-    })
-    $('#tab-tab-tabs2').tabs({
-        show:300,
-        hide: 300,
-        animate: true,
-        active: false,
-        collapsible: true,
-    })
-    $('#tab-memoria').tabs({
-        show:300,
-        hide: 300,
-        animate: true,
-        active: false,
-        collapsible: true,
-    })
-    $("#tab-ES-inner").tabs({
-        show:300,
-        hide: 300,
-        animate: true,
-        active: false,
-        collapsible: true,
+        collapsible: true
+      });
     });
-    $("#tab-buses-inner").tabs({
-        show:300,
-        hide: 300,
-        animate: true,
-        active: false,
-        collapsible: true,
-    });
-    $("#unidad2-tabs").tabs({
-        show:300,
-        hide: 300,
-        animate: true,
-        active: false,
-        collapsible: true,
-    });
-    $("#unidad3-tabs").tabs({
-        show:300,
-        hide: 300,
-        animate: true,
-        active: false,
-        collapsible: true,
-    })
-    $("#tab-estructuraReg").tabs({
-        show:300,
-        hide: 300,
-        animate: true,
-        active: false,
-        collapsible: true,
-    })
-    $("#tab-cicloInstruccion").tabs({
-        show:300,
-        hide: 300,
-        animate: true,
-        active: false,
-        collapsible: true,
-    })
-    $("#chipsetTab").tabs({
-        show: 300,
-        hide: 300,
-        animate: true,
-        active: false,
-        collapsible: true,
-    })
-    $("#tab-aplicaciones").tabs({
-        show: 300,
-        hide: 300,
-        animate: true,
-        active: false,
-        collapsible: true,
-    })
-    $("#ambientesIndex").tabs({
-        show: 300,
-        hide: 300,
-        animate: true,
-        active: false,
-        collapsible: true,
-    })
-    $("#unidad4-tabs").tabs({
-        show: 300,
-        hide: 300,
-        animate: true,
-        active: false,
-        collapsible: true,
-    })
-    $("#aspectosBasicosIndex").tabs({
-        show: 300,
-        hide: 300,
-        animate: true,
-        active: false,
-        collapsible: true,
-    })
-    $("#tiposParaleloIndex").tabs({
-        show: 300,
-        hide: 300,
-        animate: true,
-        active: false,
-        collapsible: true,
-    })
-    $("#sisMemCompTab").tabs({
-        show: 300,
-        hide: 300,
-        animate: true,
-        active: false,
-        collapsible: true,
-    })
-    $("#sisMemDistTab").tabs({
-        show: 300,
-        hide: 300,
-        animate: true,
-        active: false,
-        collapsible: true,
-    })
-    $("#estudioIndex").tabs({
-        show: 300,
-        hide: 300,
-        animate: true,
-        active: false,
-        collapsible: true,
-    })
-    $("#practicastab").tabs({
-        show: 300,
-        hide: 300,
-        animate: true,
-        active: false,
-        collapsible: true,
-    })
-})
-
+  });
+  
 $("#mainPage").on('click', ()=>{
     window.location.reload()
 })
